@@ -1,0 +1,31 @@
+//the program does not work yet
+
+
+package com.sof.my;
+
+public class leapYearCount {
+    public static void main(String[] args) {
+
+    }
+
+    public static void isLeapYear(int year) {
+         year=458;
+        boolean leapYear = true;
+        boolean noLeapYear = false;
+        for (int i = 1; i <= year; i++) {
+            if ((i % 4 != 0 || i % 100 == 0) && i % 400 != 0) {
+
+                year ++;
+                //return leapYear;
+                System.out.println(leapYear);
+
+            } else {
+                System.out.println(noLeapYear);
+
+                //return noLeapYear;
+            }
+
+        }
+
+    }
+}
